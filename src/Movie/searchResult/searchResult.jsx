@@ -76,7 +76,7 @@ function SearchResult({ query, updateSearchedMoviesId }) {
 
 function MovieCardContainer({ result, query, updateMovieId }) {
   return (
-    <div className={styles.parent}>
+    <div>
       <h3 className="text-warning text-center my-1">
         Search result for {query}
       </h3>
