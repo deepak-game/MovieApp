@@ -1,0 +1,21 @@
+.book {
+  width: 95vw;
+  font-size: 1rem;
+  margin: auto;
+  background-color: lightgrey;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.can {
+  color: red;
+}
+
+.space {
+  margin: 0.5rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}

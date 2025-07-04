@@ -1,0 +1,15 @@
+:global(.nav-link.active) {
+  background-color: blue;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin-top: 0.25rem;
+  color: #fff !important;
+}
+
+.logo {
+  font-weight: bold;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+}

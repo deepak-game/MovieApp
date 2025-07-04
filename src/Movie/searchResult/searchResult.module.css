@@ -1,0 +1,45 @@
+.parent {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+  margin: 0.5rem;
+  width: 30vw;
+  align-self: left;
+}
+
+.title {
+  width: 70%;
+}
+
+.cardImg {
+  width: 25vw;
+  height: 50vh;
+  display: block;
+}
+
+/* Responsive Part */
+@media (max-width: 700px) {
+  .cardContainer {
+    width: 100vw;
+  }
+
+  .card {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .cardImg {
+    width: 80vw;
+  }
+}

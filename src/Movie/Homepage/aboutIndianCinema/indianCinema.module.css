@@ -1,0 +1,45 @@
+.container {
+  width: 95vw;
+  margin: auto;
+  padding: 1rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffe600;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.heading1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffcb74;
+}
+
+.timelineContainer {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.timelineItem {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1rem;
+  border-radius: 1rem;
+  border-left: 5px solid #ff6f61;
+}
+
+@media (max-width: 700px) {
+  .timelineContainer {
+    display: block;
+  }
+
+  .timelineItem {
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,40 @@
+.container {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.movie {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 15vw;
+  max-width: 25vw;
+  border-radius: 0.5rem;
+}
+
+.movieImg {
+  width: 10vw;
+  height: 20vh;
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: block;
+    width: 100vw;
+    padding: 1rem;
+  }
+
+  .movie {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .movieImg {
+    width: 100%;
+  }
+}

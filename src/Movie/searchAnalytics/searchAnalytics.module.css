@@ -1,0 +1,15 @@
+.navStyle {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navStyle.active {
+  border-bottom: 2px solid blue;
+  color: red;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}

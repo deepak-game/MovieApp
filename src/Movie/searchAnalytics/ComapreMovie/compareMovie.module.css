@@ -1,0 +1,9 @@
+.selectorContainer {
+  background-color: bisque;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.selector {
+  margin: 1rem 0;
+}

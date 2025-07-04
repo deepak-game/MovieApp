@@ -1,0 +1,53 @@
+.footer {
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #333;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff004f;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.featureSectionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about {
+  margin-bottom: 1rem;
+}
+
+.company {
+  color: orange;
+  margin-top: 1rem;
+}
+
+.group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .socialMedia {
+    display: block;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  width: 95vw;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  color: #333;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
