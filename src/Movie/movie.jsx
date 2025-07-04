@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { useState, createContext, useRef, useEffect } from "react";
 import Navbar from "./Navigation/navbar.jsx";
 import Homepage from "./Homepage/homepage.jsx";
@@ -79,7 +79,7 @@ function Movie() {
   };
 
   return (
-    <>
+    <HashRouter>
       <Navbar updateQuery={setSearchQuery} query={searchQuery} />
       <MovieContext.Provider value={movieData}>
         <Routes>
@@ -122,7 +122,7 @@ function Movie() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </MovieContext.Provider>
-    </>
+    </HashRouter>
   );
 }
 
