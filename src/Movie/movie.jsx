@@ -79,7 +79,7 @@ function Movie() {
   };
 
   return (
-    <BrowserRouter>
+    <>
       <Navbar updateQuery={setSearchQuery} query={searchQuery} />
       <MovieContext.Provider value={movieData}>
         <Routes>
@@ -122,7 +122,7 @@ function Movie() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </MovieContext.Provider>
-    </BrowserRouter>
+    </>
   );
 }
 
