@@ -44,4 +44,4 @@ In order to achieve below feature, users need to search some movie using title w
 | ReactJS (with Hooks & Router) | OMDb API | CSS Modules / Bootstrap |
 
 Purpose of this application is to implement all modern features of javascript ES6 like destructuring, rest pattern, spread operator, async/await, error handling.
-Cover all concepts of React functional components like controlled element, conditionl rendering, hooks-useState, useEffect, useRef, useContext, useNavigate and client side router using modern react-router(BrowserRouter).
+Cover all concepts of React functional components like controlled element, conditionl rendering, hooks-useState, useEffect, useRef, useContext, custom hooks and client side router along with dynaimc routing using modern react-router(BrowserRouter).
