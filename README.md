@@ -1,17 +1,47 @@
-<<<<<<< HEAD
-# React + Vite
+# 🎬 MovieApp  — Your Ultimate Movie Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MovieApp is a dynamic and interactive movie web application that allows users to search, explore, and manage their favorite films. With powerful filtering, personalized lists, and comparison tools, MovieApp delivers a seamless and engaging movie discovery experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔍 Smart Movie Search
+- Search movies by **title** only with maximum 10 results and minimum 0 result.
+- Fetch detailed movie data including poster, synopsis, cast, director, genre, rating, and release year.
 
-## Expanding the ESLint configuration
+### 📂 Personalized Lists
+- ➕ Add movies to your **Watched List** to keep track of what you've seen.
+- ❤️ Mark favorites and build your **Favorite List** for quick access to top picks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# MovieApp
-MovieApp using ReactJs
->>>>>>> 957b6b7b170c2a4b999fefb6147e9b32f6d442c3
+### 🎟️ Booking System
+- Create and manage **movie bookings** with intuitive UI.
+- Store booking details
+
+### Below feature available based on the user search only, if user does not search anything, no movie will show for below features.
+In order to achieve below feature, users need to search some movie using title which gives valid result. After that, user needs to move to search-analytics tab, to prepared the analytcis data. Once analytcis data prepared based on user search, then user is able to use the below features.
+
+### 🎟️ Movie Recommendation based on user search.
+--User will get to see movies as recommendation on the homepage based on the user search.
+
+### 🎯 Advanced Filtering
+- Filter movies based on:
+  - 🎭 **Genre**
+  - ⭐ **Rating**
+  - 📅 **Release Year**
+  - 🔠 **Title**
+
+### ⚖️ Movie Comparison Tool
+- Compare two movies side-by-side based on:
+  - 🎬 **Director**
+  - 👥 **Lead Actors**
+  - 🎭 **Genre**
+  - ⭐ **Rating**
+  - 👥 **Language**
+
+## 🛠️ Tech Stack
+
+| Frontend  | APIs | Styling |
+|----------|---------|------|---------|
+| ReactJS (with Hooks & Router) | OMDb API | CSS Modules / Bootstrap |
+
+Purpose of this application is to implement all modern features of javascript ES6 like destructuring, rest pattern, spread operator, async/await, error handling.
+Cover all concepts of React functional components like controlled element, conditionl rendering, hooks-useState, useEffect, useRef, useContext, useNavigate and client side router using modern react-router(BrowserRouter).
