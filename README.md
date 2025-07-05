@@ -1,4 +1,3 @@
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/84f7894b-cfc8-45f5-ba0f-7bceec2ea4dc" />
 # 🎬 MovieApp  — Your Ultimate Movie Companion
 
 MovieApp is a dynamic and interactive movie web application that allows users to search, explore, and manage their favorite films. With powerful filtering, personalized lists, and comparison tools, MovieApp delivers a seamless and engaging movie discovery experience.
