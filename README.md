@@ -1,4 +1,4 @@
-# 🎬 MovieApp  — Your Ultimate Movie Companion
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/84f7894b-cfc8-45f5-ba0f-7bceec2ea4dc" /># 🎬 MovieApp  — Your Ultimate Movie Companion
 
 MovieApp is a dynamic and interactive movie web application that allows users to search, explore, and manage their favorite films. With powerful filtering, personalized lists, and comparison tools, MovieApp delivers a seamless and engaging movie discovery experience.
 
@@ -9,6 +9,7 @@ MovieApp is a dynamic and interactive movie web application that allows users to
 - Fetch detailed movie data including poster, synopsis, cast, director, genre, rating, and release year.
 
 ### 📂 Personalized Lists
+-  ➖ Click on any movie which we get as result after search, to see the movie details and add to watch/favorite list
 - ➕ Add movies to your **Watched List** to keep track of what you've seen.
 - ❤️ Mark favorites and build your **Favorite List** for quick access to top picks.
 
@@ -44,4 +45,4 @@ In order to achieve below feature, users need to search some movie using title w
 | ReactJS (with Hooks & Router) | OMDb API | CSS Modules / Bootstrap |
 
 Purpose of this application is to implement all modern features of javascript ES6 like destructuring, rest pattern, spread operator, async/await, error handling.
-Cover all concepts of React functional components like controlled element, conditionl rendering, hooks-useState, useEffect, useRef, useContext, custom hooks and client side router along with dynaimc routing using modern react-router(BrowserRouter).
+Cover all concepts of React functional components like controlled element, conditionl rendering, hooks-useState, useEffect, useRef, useContext, custom hooks and client side router along with dynaimc routing using modern react-router(BrowserRouter). 
